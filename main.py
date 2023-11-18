@@ -18,7 +18,8 @@ from typing import Iterable
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
-from snowflake.snowpark.session import Session
+# from snowflake.snowpark.session import Session
+from snowflake.snowpark import Session
 from snowflake.snowpark.table import Table
 from toolz.itertoolz import pluck
 
